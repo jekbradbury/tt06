@@ -3,7 +3,7 @@ import math
 DENORMAL = False
 
 def to_binary(x):
-    return f"{x:08b}"[::-1]
+    return f"{x:08b}"
 
 # Slightly modified IEEE 754:
 #   exp=max is used for more normals (instead of inf/nan)
